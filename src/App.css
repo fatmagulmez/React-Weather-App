@@ -1,0 +1,142 @@
+.app {
+  height: 100vh;
+}
+
+.dark{
+  color: white;
+  background-color: #282c34
+}
+
+.theme-btn{
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.container{
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.header .input{
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 2px 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.header .input:focus{
+  outline: none;
+}
+
+
+.header .button{
+  height: 30px;
+  border: 1px solid rgba(3, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 2px 5px;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.button:hover{
+  background-color: black;
+  color: white;
+}
+.current-weather{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  min-height: 20vh;
+  /* background-color: antiquewhite; */
+}
+.current-weather .cityname{
+  font-size: 24px;
+}
+
+
+
+
+.weather-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 60vh;
+}
+
+.weather-container .weather-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 10px 10px;
+  
+}
+
+.weather-container .weather-cards:nth-child(1) {
+  background-color: rgba(251, 216, 146, 0.893);
+}
+
+.weather-cards .day{
+  font-weight: bold;
+}
+
+.weather-cards .description {
+  text-transform: capitalize;
+}
+
+.weather-cards .temp-max .temp-min {
+  padding: 5px;
+  color: azure;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.weather-cards .temp-max {
+  background-color: rgb(235, 168, 69);
+}
+
+.weather-cards .temp-min {
+  background-color: rgb(51, 95, 110);
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: small;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+.icons:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
