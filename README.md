@@ -52,7 +52,7 @@ You need to enter a location into the input and click the search button.
   
   # :mailbox_with_mail: Contact
   
-  [Linkedin](https://www.linkedin.com/in/fatma-gülmez )
-  [Fatma Gülmez]( ffatma.glmz@gmail.com)
+  [Linkedin](https://www.linkedin.com/in/fatma-gülmez ) <br>
+  Gmail: **ffatma.glmz@gmail.com**
   
 
